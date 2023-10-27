@@ -19,7 +19,7 @@
 
 import QtQuick 2.5
 import QtQuick.Window 2.2
-import QtMultimedia
+
 
 AnimatedImage {
     id: root
@@ -36,7 +36,6 @@ AnimatedImage {
             preOpacityAnimation.from = 0;
             preOpacityAnimation.to = 1;
             preOpacityAnimation.running = true;
-            test.play();
         }
         if (stage == 4) {
             preOpacityAnimation.from = 1;
@@ -45,9 +44,6 @@ AnimatedImage {
             pausa.start();
         }
     }
-
-
-
 
         Text {
             id: mainText
