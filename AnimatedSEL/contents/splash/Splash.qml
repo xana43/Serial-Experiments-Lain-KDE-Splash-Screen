@@ -131,7 +131,7 @@ AnimatedImage {
                         property: "text"
                         target: mainText
                         to: "Present Day. "
-                        duration: 700
+                        duration: 600
                         easing.type: Easing.InOutQuad
                 }
                 PropertyAnimation {
